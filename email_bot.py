@@ -3,13 +3,13 @@ import email
 import requests
 import time
 
-EMAIL_USER = "deguzmanrufo84@gmail.com"
-EMAIL_PASS = "iadx rtpw niry ahaa"
+EMAIL_USER = ""
+EMAIL_PASS = ""
 IMAP_SERVER = "imap.gmail.com"
 IMAP_PORT = 993
 
-TELEGRAM_BOT_TOKEN = "7735983127:AAEOKp95HOjNyIicO5W5WhsxarQYcu2IEn4"
-TELEGRAM_CHAT_ID = "-1002497607324"
+TELEGRAM_BOT_TOKEN = ""
+TELEGRAM_CHAT_ID = ""
 TELEGRAM_URL = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
 
 def fetch_emails():
